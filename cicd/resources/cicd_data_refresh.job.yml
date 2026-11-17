@@ -23,9 +23,9 @@ resources:
       tasks:
         - task_key: notebook_task
           notebook_task:
-            notebook_path: ../src/customer360
+            notebook_path: ../src/customer360.ipynb
 
-        - task_key: transaction_summary.ipynb
+        - task_key: transaction_summary
           depends_on:
             - task_key: notebook_task
           notebook_task:
